@@ -20,8 +20,7 @@ public class NotHesaplayici {
         kimya = inp.nextInt();
         System.out.print("Müzik Notunuzu Giriniz:");
         muzik = inp.nextInt();
-
-
+        
         int toplam = mat + fizik + tarih + turkce + kimya + muzik;
         System.out.println("Not Toplamanız:" +toplam);
         double sonuc = toplam/6;
