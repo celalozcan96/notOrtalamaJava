@@ -21,18 +21,6 @@ public class NotHesaplayici {
         System.out.print("Müzik Notunuzu Giriniz:");
         muzik = inp.nextInt();
 
-        System.out.print("Matematik Notunuz:");
-        System.out.println(mat);
-        System.out.print("Fizik Notunuz:");
-        System.out.println(fizik);
-        System.out.print("Tarih Notunuz:");
-        System.out.println(tarih);
-        System.out.print("Türkçe Notunuz:");
-        System.out.println(turkce);
-        System.out.print("Kimya Notunuz:");
-        System.out.println(kimya);
-        System.out.print("Müzik Notunuz:");
-        System.out.println(muzik);
 
         int toplam = mat + fizik + tarih + turkce + kimya + muzik;
         System.out.println("Not Toplamanız:" +toplam);
